@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- (c) ammap.com | SVG weather icons -->
-<svg width="56" height="56" version="1.1" xmlns="http://www.w3.org/2000/svg">
+<svg width="56" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
  <defs>
   <filter id="blur" x="-.20655" y="-.28472" width="1.403" height="1.6944">
    <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
@@ -130,7 +130,7 @@
 }
         ]]></style>
  </defs>
- <g filter="url(#blur)">
+ <g transform="translate(0 -8)" filter="url(#blur)">
   <g transform="translate(16,6)">
    <g transform="translate(0,16)">
     <g class="am-weather-sun" style="-moz-animation-duration:9s;-moz-animation-iteration-count:infinite;-moz-animation-name:am-weather-sun;-moz-animation-timing-function:linear;-ms-animation-duration:9s;-ms-animation-iteration-count:infinite;-ms-animation-name:am-weather-sun;-ms-animation-timing-function:linear;-webkit-animation-duration:9s;-webkit-animation-iteration-count:infinite;-webkit-animation-name:am-weather-sun;-webkit-animation-timing-function:linear">
