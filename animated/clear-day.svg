@@ -481,8 +481,7 @@
 
         ]]></style>
  </defs>
- <g id="day" transform="translate(-4,-18)" filter="url(#blur)">
-  <g transform="translate(32,32)">
+ <g id="day" transform="translate(18,14)" filter="url(#blur)">
    <g class="am-weather-sun am-weather-sun-shiny am-weather-easing-ease-in-out" style="-moz-animation-duration:9s;-moz-animation-iteration-count:infinite;-moz-animation-name:am-weather-sun;-moz-animation-timing-function:ease-in-out;-ms-animation-duration:9s;-ms-animation-iteration-count:infinite;-ms-animation-name:am-weather-sun;-ms-animation-timing-function:ease-in-out;-webkit-animation-duration:9s;-webkit-animation-iteration-count:infinite;-webkit-animation-name:am-weather-sun;-webkit-animation-timing-function:ease-in-out">
     <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" style="-moz-animation-duration:2s;-moz-animation-iteration-count:infinite;-moz-animation-name:am-weather-sun-shiny;-moz-animation-timing-function:linear;-ms-animation-duration:2s;-ms-animation-iteration-count:infinite;-ms-animation-name:am-weather-sun-shiny;-ms-animation-timing-function:linear;-webkit-animation-duration:2s;-webkit-animation-iteration-count:infinite;-webkit-animation-name:am-weather-sun-shiny;-webkit-animation-timing-function:linear"/>
     <g transform="rotate(45)">
@@ -508,6 +507,5 @@
     </g>
    </g>
    <circle r="5" fill="#ffa500" stroke="#ffa500" stroke-width="2"/>
-  </g>
  </g>
 </svg>
