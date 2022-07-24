@@ -57,7 +57,7 @@
         animation-iteration-count: infinite;
       }
 
-      @keyframes am-weather-cloud-3 {
+      @keyframes am-weather-cloud-2 {
         0% {
           -webkit-transform: translate(0px, 0px);
           -moz-transform: translate(0px, 0px);
@@ -80,10 +80,10 @@
         }
       }
 
-      .am-weather-cloud-3 {
-        -webkit-animation-name: am-weather-cloud-3;
-        -moz-animation-name: am-weather-cloud-3;
-        animation-name: am-weather-cloud-3;
+      .am-weather-cloud-2 {
+        -webkit-animation-name: am-weather-cloud-2;
+        -moz-animation-name: am-weather-cloud-2;
+        animation-name: am-weather-cloud-2;
         -webkit-animation-duration: 3s;
         -moz-animation-duration: 3s;
         animation-duration: 3s;
@@ -94,6 +94,7 @@
         -moz-animation-iteration-count: infinite;
         animation-iteration-count: infinite;
       }
+
        
        
        @keyframes am-weather-cloud-1 {
