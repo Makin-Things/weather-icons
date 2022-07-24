@@ -257,8 +257,7 @@
         fill="#57a0ee" stroke="#fff" stroke-linejoin="round" stroke-width="1.2" />
     </g>
     <g class="am-weather-snow-1"
-      style="
-      -moz-animation-duration:2s;-moz-animation-iteration-count:infinite;-moz-animation-name:am-weather-snow;-moz-animation-timing-function:linear;-ms-animation-duration:2s;-ms-animation-iteration-count:infinite;-ms-animation-name:am-weather-snow;-ms-animation-timing-function:linear;-webkit-animation-duration:2s;-webkit-animation-iteration-count:infinite;-webkit-animation-name:am-weather-snow;-webkit-animation-timing-function:linear">
+      style="-moz-animation-duration:2s;-moz-animation-iteration-count:infinite;-moz-animation-name:am-weather-snow;-moz-animation-timing-function:linear;-ms-animation-duration:2s;-ms-animation-iteration-count:infinite;-ms-animation-name:am-weather-snow;-ms-animation-timing-function:linear;-webkit-animation-duration:2s;-webkit-animation-iteration-count:infinite;-webkit-animation-name:am-weather-snow;-webkit-animation-timing-function:linear">
       <g transform="translate(12,28)" fill="none" stroke="#57a0ee" stroke-linecap="round">
         <line transform="translate(0,9)" y1="-2.5" y2="2.5" stroke-width="1.2" />
         <line transform="rotate(45,-10.864,4.5)" y1="-2.5" y2="2.5" />
