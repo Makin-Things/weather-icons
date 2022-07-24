@@ -6,8 +6,8 @@ This is a set of weather icons in SVG format that is used in the Home Assistant 
 
 Work in progress
 
-| Static | | | | | |
-| - | - | - | - | - | - |
+| Static | | | |
+| - | - | - | - |
 | <img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/clear-day.svg" width="128"><br>clear-day | <img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/clear-night.svg" width="128"><br>clear-night |<img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/cloudy-1-day.svg" width="128"><br>cloudy-1-day |<img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/cloudy-1-night.svg" width="128"><br>cloudy-1-night |
 |<img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/cloudy-2-day.svg" width="128"><br>cloudy-2-day |<img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/cloudy-2-night.svg" width="128"><br>cloudy-2-night | <img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/cloudy-3-day.svg" width="128"><br>cloudy-3-day |<img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/cloudy-3-night.svg" width="128"><br>cloudy-3-night |
 | <img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/cloudy.svg" width="128">cloudy<br> | <img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/fair-day.svg" width="128"><br>fair-day |<img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/fair-night.svg" width="128"><br>fair-night |<img src="https://raw.githubusercontent.com/Makin-Things/weather-icons/master/static/hail.svg" width="128"><br>hail |
