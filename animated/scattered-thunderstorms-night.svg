@@ -19,7 +19,7 @@
       /*
 ** CLOUDS
 */
-      @keyframes am-weather-cloud-1 {
+      @keyframes am-weather-cloud-3 {
         0% {
           -webkit-transform: translate(-5px, 0px);
           -moz-transform: translate(-5px, 0px);
@@ -42,10 +42,10 @@
         }
       }
 
-      .am-weather-cloud-1 {
-        -webkit-animation-name: am-weather-cloud-1;
-        -moz-animation-name: am-weather-cloud-1;
-        animation-name: am-weather-cloud-1;
+      .am-weather-cloud-3 {
+        -webkit-animation-name: am-weather-cloud-3;
+        -moz-animation-name: am-weather-cloud-3;
+        animation-name: am-weather-cloud-3;
         -webkit-animation-duration: 7s;
         -moz-animation-duration: 7s;
         animation-duration: 7s;
