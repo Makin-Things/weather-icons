@@ -16,9 +16,9 @@
     <style type="text/css">
       <![CDATA[
       /*
-** FOG
+** haze
 */
-      @keyframes am-weather-fog-1 {
+      @keyframes am-weather-haze-1 {
         0% {
           transform: translate(0px, 0px)
         }
@@ -32,11 +32,11 @@
         }
       }
 
-      .am-weather-fog-1 {
-        -webkit-animation-name: am-weather-fog-1;
-        -moz-animation-name: am-weather-fog-1;
-        -ms-animation-name: am-weather-fog-1;
-        animation-name: am-weather-fog-1;
+      .am-weather-haze-1 {
+        -webkit-animation-name: am-weather-haze-1;
+        -moz-animation-name: am-weather-haze-1;
+        -ms-animation-name: am-weather-haze-1;
+        animation-name: am-weather-haze-1;
         -webkit-animation-duration: 8s;
         -moz-animation-duration: 8s;
         -ms-animation-duration: 8s;
@@ -51,7 +51,7 @@
         animation-iteration-count: infinite;
       }
 
-      @keyframes am-weather-fog-2 {
+      @keyframes am-weather-haze-2 {
         0% {
           transform: translate(0px, 0px)
         }
@@ -69,11 +69,11 @@
         }
       }
 
-      .am-weather-fog-2 {
-        -webkit-animation-name: am-weather-fog-2;
-        -moz-animation-name: am-weather-fog-2;
-        -ms-animation-name: am-weather-fog-2;
-        animation-name: am-weather-fog-2;
+      .am-weather-haze-2 {
+        -webkit-animation-name: am-weather-haze-2;
+        -moz-animation-name: am-weather-haze-2;
+        -ms-animation-name: am-weather-haze-2;
+        animation-name: am-weather-haze-2;
         -webkit-animation-duration: 20s;
         -moz-animation-duration: 20s;
         -ms-animation-duration: 20s;
@@ -88,7 +88,7 @@
         animation-iteration-count: infinite;
       }
 
-      @keyframes am-weather-fog-3 {
+      @keyframes am-weather-haze-3 {
         0% {
           transform: translate(0px, 0px)
         }
@@ -106,11 +106,11 @@
         }
       }
 
-      .am-weather-fog-3 {
-        -webkit-animation-name: am-weather-fog-3;
-        -moz-animation-name: am-weather-fog-3;
-        -ms-animation-name: am-weather-fog-3;
-        animation-name: am-weather-fog-3;
+      .am-weather-haze-3 {
+        -webkit-animation-name: am-weather-haze-3;
+        -moz-animation-name: am-weather-haze-3;
+        -ms-animation-name: am-weather-haze-3;
+        animation-name: am-weather-haze-3;
         -webkit-animation-duration: 6s;
         -moz-animation-duration: 6s;
         -ms-animation-duration: 6s;
@@ -125,7 +125,7 @@
         animation-iteration-count: infinite;
       }
 
-      @keyframes am-weather-fog-4 {
+      @keyframes am-weather-haze-4 {
         0% {
           transform: translate(0px, 0px)
         }
@@ -139,11 +139,11 @@
         }
       }
 
-      .am-weather-fog-4 {
-        -webkit-animation-name: am-weather-fog-4;
-        -moz-animation-name: am-weather-fog-4;
-        -ms-animation-name: am-weather-fog-4;
-        animation-name: am-weather-fog-4;
+      .am-weather-haze-4 {
+        -webkit-animation-name: am-weather-haze-4;
+        -moz-animation-name: am-weather-haze-4;
+        -ms-animation-name: am-weather-haze-4;
+        animation-name: am-weather-haze-4;
         -webkit-animation-duration: 6s;
         -moz-animation-duration: 6s;
         -ms-animation-duration: 6s;
@@ -161,12 +161,12 @@
     </style>
   </defs>
   <g transform="translate(16,-2)" filter="url(#blur)">
-    <g class="am-weather-fog" transform="translate(-10,20)" fill="none" stroke="#c6deff" stroke-linecap="round"
+    <g class="am-weather-haze" transform="translate(-10,20)" fill="none" stroke="#cd9e73" stroke-linecap="round"
       stroke-width="2">
-      <line class="am-weather-fog-1" y1="0" y2="0" x1="1" x2="37" stroke-dasharray="3, 5, 17, 5, 7" />
-      <line class="am-weather-fog-2" y1="5" y2="5" x1="9" x2="33" stroke-dasharray="11, 7, 15" />
-      <line class="am-weather-fog-3" y1="10" y2="10" x1="5" x2="40" stroke-dasharray="11, 7, 3, 5, 9" />
-      <line class="am-weather-fog-4" y1="15" y2="15" x1="7" x2="42" stroke-dasharray="13, 5, 9, 5, 3" />
+      <line class="am-weather-haze-1" y1="0" y2="0" x1="1" x2="37" stroke-dasharray="3, 5, 17, 5, 7" />
+      <line class="am-weather-haze-2" y1="5" y2="5" x1="9" x2="33" stroke-dasharray="11, 7, 15" />
+      <line class="am-weather-haze-3" y1="10" y2="10" x1="5" x2="40" stroke-dasharray="11, 7, 3, 5, 9" />
+      <line class="am-weather-haze-4" y1="15" y2="15" x1="7" x2="42" stroke-dasharray="13, 5, 9, 5, 3" />
     </g>
   </g>
 </svg>
