@@ -47,7 +47,7 @@
       </g>
       <circle r="5" fill="#ffc04a" stroke="#ffc04a" stroke-width="2" />
     </g>
-    <g class="am-weather-fog" transform="translate(-10,20)" fill="none" stroke="#c6deff" stroke-linecap="round" stroke-width="3">
+    <g class="am-weather-fog" transform="translate(-10,20)" fill="none" stroke="#c6deff" stroke-linecap="round" stroke-width="2">
       <line class="am-weatherfog-1" y1="0" y2="0" x1="1" x2="37" stroke-dasharray="3, 5, 17, 5, 7" />
       <line class="am-weatherfog-2" y1="5" y2="5" x1="9" x2="33" stroke-dasharray="11, 7, 15" />
       <line class="am-weatherfog-3" y1="10" y2="10" x1="5" x2="40" stroke-dasharray="11, 7, 3, 5, 9" />
