@@ -43,11 +43,14 @@
       <circle r="5" fill="#ffa500" stroke="#ffa500" stroke-width="2" />
     </g> -->
     <g class="am-weather-wind" transform="translate(-16,10)">
-      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" d="M25.5 5A4 4 0 1 1 29 11H10">
+      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" stroke-dasharray="12 10" d="M25.5 5A4 4 0 1 1 29 11H10">
+        <animate attributeName="stroke-dashoffset" dur="15s" repeatCount="indefinite" values="0; 400" />
       </path>
-      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" d="M39.5 11A4 4 0 1 1 43 17H6">
+      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" stroke-dasharray="24 16" d="M39.5 11A4 4 0 1 1 43 17H6">
+        <animate attributeName="stroke-dashoffset" dur="15s" repeatCount="indefinite" values="0; 400" />
       </path>
-      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" d="M28.5 29A4 4 0 1 0 32 23H15">
+      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" stroke-dasharray="18 10" d="M28.5 29A4 4 0 1 0 32 23H15">
+        <animate attributeName="stroke-dashoffset" dur="15s" repeatCount="indefinite" values="0; 400" />
       </path>
     </g>
     <!-- <g transform="translate(-11,0) scale(0.35,0.35)">
