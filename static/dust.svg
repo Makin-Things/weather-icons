@@ -14,13 +14,13 @@
     </filter>
   </defs>
   <g transform="translate(16 -2)" filter="url(#blur)">
-    <g class="am-weather-wind" transform="translate(-16,10)" fill="none" stroke="#57A0EE" stroke-linecap="round"
+    <g class="am-weather-wind" transform="translate(-16,10)" fill="none" stroke="#cd9e73" stroke-linecap="round"
       stroke-width="2">
       <path d="M25.5 5A4 4 0 1 1 29 11H10">
       </path>
       <path d="M39.5 11A4 4 0 1 1 43 17H6">
       </path>
-      <path stroke-width="2" d="M28.5 29A4 4 0 1 0 32 23H15">
+      <path d="M28.5 29A4 4 0 1 0 32 23H15">
       </path>
     </g>
   </g>
