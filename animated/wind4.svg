@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56" height="48" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="blur" x="-.24684" y="-.27097" width="1.4937" height="1.6939">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3" />
+      <feOffset dx="0" dy="4" result="offsetblur" />
+      <feComponentTransfer>
+        <feFuncA slope="0.05" type="linear" />
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- <g>
+    <path fill="none" stroke="#ff0000" stroke-width="0.2" d="M0 0l56,0l0,48l-56,0z"></path>
+  </g> -->
+  <g transform="translate(16 -2)" filter="url(#blur)">
+    <!-- <g class="am-weather-sun" transform="translate(0,16)">
+      <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" />
+      <g transform="rotate(45)">
+        <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" />
+      </g>
+      <g transform="rotate(90)">
+        <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" />
+      </g>
+      <g transform="rotate(135)">
+        <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" />
+      </g>
+      <g transform="scale(-1)">
+        <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" />
+      </g>
+      <g transform="rotate(225)">
+        <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" />
+      </g>
+      <g transform="rotate(-90)">
+        <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" />
+      </g>
+      <g transform="rotate(-45)">
+        <line transform="translate(0,9)" y2="3" fill="none" stroke="#ffa500" stroke-linecap="round" stroke-width="2" />
+      </g>
+      <circle r="5" fill="#ffa500" stroke="#ffa500" stroke-width="2" />
+    </g> -->
+    <g class="am-weather-wind" transform="translate(-16,10)">
+      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" stroke-dasharray="150 10" d="M25.5 5A4 4 0 1 1 29 11H10">
+        <animate attributeName="stroke-dashoffset" dur="4.5s" repeatCount="indefinite" values="0; 160" begin="1.5s" />
+      </path>
+      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" stroke-dasharray="144 16" d="M39.5 11A4 4 0 1 1 43 17H6">
+        <animate attributeName="stroke-dashoffset" dur="4.5s" repeatCount="indefinite" values="0; 160" />
+      </path>
+      <path fill="none" stroke="#57A0EE" stroke-linecap="round" stroke-width="2" stroke-dasharray="150 10" d="M28.5 29A4 4 0 1 0 32 23H15">
+        <animate attributeName="stroke-dashoffset" dur="4.5s" repeatCount="indefinite" values="0; 160" begin="3s"/>
+      </path>
+    </g>
+    <!-- <g transform="translate(-11,0) scale(0.35,0.35)">
+      <g class="line-top">
+        <path
+          d="M15.41,27.21c-1.61,0-2.91-1.3-2.91-2.91 c0-1.61,1.3-2.91,2.91-2.91h51.21c1.17-0.18,2.23-0.5,3.14-0.99c0.87-0.47,1.61-1.12,2.18-1.98c2.32-3.51,2.09-6.6,0.61-8.79 c-1.04-1.53-2.68-2.69-4.52-3.32c-1.81-0.62-3.78-0.7-5.48-0.08c-2.52,0.92-4.59,3.54-4.94,8.48c-0.11,1.6-1.49,2.81-3.09,2.7 c-1.6-0.11-2.81-1.49-2.7-3.09c0.54-7.66,4.22-11.89,8.76-13.55c3-1.09,6.32-0.99,9.32,0.03c2.98,1.02,5.68,2.97,7.45,5.57 c2.72,4,3.29,9.41-0.56,15.24c-1.12,1.7-2.57,2.97-4.27,3.89c-1.54,0.83-3.26,1.35-5.1,1.63c-0.2,0.04-0.41,0.07-0.62,0.07H15.41 L15.41,27.21z" />
+      </g>
+      <g class="line-middle">
+        <path
+          d="M2.91,40.3C1.3,40.3,0,38.99,0,37.39c0-1.61,1.3-2.91,2.91-2.91h107.07c1.17-0.18,2.23-0.5,3.13-0.99 c0.87-0.47,1.61-1.12,2.18-1.98c2.32-3.51,2.09-6.6,0.61-8.79c-1.04-1.53-2.68-2.69-4.52-3.32c-1.81-0.62-3.78-0.7-5.48-0.08 c-2.52,0.92-4.59,3.54-4.94,8.48c-0.11,1.6-1.49,2.81-3.09,2.7c-1.6-0.11-2.81-1.49-2.7-3.09c0.54-7.66,4.22-11.89,8.76-13.55 c3-1.09,6.32-0.99,9.32,0.03c2.98,1.02,5.68,2.97,7.45,5.57c2.72,4,3.29,9.41-0.56,15.24c-1.12,1.7-2.57,2.97-4.27,3.89 c-1.54,0.83-3.26,1.35-5.1,1.63c-0.2,0.04-0.41,0.07-0.62,0.07H2.91L2.91,40.3z" />
+      </g>
+      <g class="line-bottom">
+        <path
+          d="M28.69,53.38c-1.61,0-2.91-1.3-2.91-2.91c0-1.61,1.3-2.91,2.91-2.91h51.37c0.21,0,0.42,0.02,0.62,0.07 c1.84,0.28,3.56,0.8,5.1,1.63c1.7,0.92,3.15,2.19,4.27,3.89c3.85,5.83,3.28,11.24,0.56,15.24c-1.77,2.61-4.47,4.55-7.45,5.57 c-3,1.03-6.32,1.13-9.32,0.03c-4.54-1.66-8.22-5.89-8.76-13.55c-0.11-1.6,1.1-2.98,2.7-3.09c1.6-0.11,2.98,1.1,3.09,2.7 c0.35,4.94,2.41,7.56,4.94,8.48c1.71,0.62,3.67,0.54,5.48-0.08c1.84-0.63,3.48-1.79,4.52-3.32c1.49-2.19,1.71-5.28-0.61-8.79 c-0.57-0.86-1.31-1.51-2.18-1.98c-0.91-0.49-1.97-0.81-3.13-0.99H28.69L28.69,53.38z" />
+      </g>
+    </g> -->
+  </g>
+</svg>
